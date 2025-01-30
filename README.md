@@ -34,25 +34,24 @@ To run FrostBite, you'll need the following Python libraries installed:
 You can install the dependencies using `pip`:
 
 ## Installation
-### Clone the repository:
+### Clone [this file](https://github.com/EyadAi/FrostBiteChatBot/blob/main/chatbotmodel.py):
 
 ```Bash
-git clone https://github.com/EyadAi/FrostBite.git
+cp chatbotmodel.py copy_of_chatbotmodel.py
 
 ```
-### Navigate to the project directory:
-
-```Bash
-cd FrostBite
-
-```
-
 ### Run the chatbot:
+You can run the code with your prefered IDE
 
-```Bash
-python ChatBotModel.ipynb
+### Additional Files Needed
+This [intents.json](https://github.com/EyadAi/FrostBite-ChatBot/blob/main/intents.json) has all needed data to run the FrostBite. Just copy it and add it to your chatbot folder.
 
-```
+## The code is also available on Google Colab
+Alternatively, you can run the project on Google Colab by clicking the following link:
+[FrostBite Chatbot](https://colab.research.google.com/drive/1C9JMr_ZXXnPvRZ7Qf6KkaTH0YRjGS7Mx?usp=sharing)
+
+### Don't forget to upload [intents.json](https://github.com/EyadAi/FrostBite-ChatBot/blob/main/intents.json) to your session
+
 ## Usage
 Once FrostBite is running, you can interact with it through the Gradio interface. Simply type your message, and FrostBite will respond!
 
@@ -100,6 +99,7 @@ iface = gr.Interface(
 
 iface.launch()
 ```
+
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/EyadAi/FrostBiteChatBot/blob/main/LICENSE) file for details.
 
